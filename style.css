@@ -1,0 +1,182 @@
+@font-face {
+    font-family: Unbounded;
+    src: url(Fonts/Unbounded-VariableFont_wght.ttf);
+}
+
+body {
+    background-image: url('../images/background.png');
+    
+    background-size: cover;
+}
+
+*{
+    padding: 0; 
+    margin: 0; 
+    box-sizing: border-box;
+}
+
+.hero{
+    height: 100vh;
+    width: 100%;
+    background-image: opacity: 10% linear-gradient(rbga(0,0,0,0.6),rbga(0,0,0,0.6));
+    background-size: cover;
+    background-position: center;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-right:10%;
+    padding-left: 10%;
+}
+
+.LOGO{
+    height: auto;
+    width: 30%;
+    margin-top: 5px;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+    font-family: Unbounded;
+}
+
+nav ul li a{
+    color: #3f3c3ce7;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+nav ul li a:hover{
+    color: #ffc400e7;
+}
+
+
+h1{ 
+    text-align: center;
+    font-family: Unbounded;
+    color: #8d8c89e7;
+}
+
+.intro2 {
+  position: absolute;
+  top: 50%;
+  height: 30%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  float: left;
+}
+
+.introd {
+border: 1px black;
+height: 100%;
+}
+
+.tentimg {
+  width: 100%;
+  height: auto;
+  margin-left: 10%;
+  margin-top: -20%;
+
+}
+
+.text {
+font-family: Unbounded;
+margin-left: 1%;
+text-align: center;
+}
+
+button{
+    position: absolute;
+    border: none;
+    background: none;
+}
+
+  .parent{
+    position: absolute;
+    display:flex;
+    gap: 35%%;
+    text-align: center;
+    font-family: Unbounded; 
+    top: 95%;
+    justify-content: center;
+    left: 12%;
+    width: 100%;
+    height: auto;
+    
+  }
+
+.parent1 {
+  height: auto;
+  width: 350px;
+  margin-left: 20%;
+  font-family: Unbounded;
+  text-align: center;
+  max-width: 100%;
+}
+
+.parent1 img {
+  transition: transform .5s ease;
+  max-width: 100%;
+  height: auto;
+}
+.parent1:hover img {
+  transform: scale(1.2);
+}
+
+.parent2 {
+    height: auto;
+    width: 350px;
+    font-family: Unbounded;
+    text-align: center;
+    margin-left: 5%;
+    max-width: 100%;
+  }
+  
+  .parent2 img {
+    transition: transform .5s ease;
+    max-width: 100%;
+    height: auto;
+  }
+
+  .parent2:hover img {
+    transform: scale(1.2);
+  }
+
+.parent3 {
+    height: auto; 
+    width: 350px;
+    font-family: Unbounded;
+    text-align: center;
+    max-width: 100%;
+  }
+  
+  .parent3 img {
+    transition: transform .5s ease;
+    max-width: 100%;
+    height: auto;
+  }
+
+  .parent3:hover img {
+    transform: scale(1.2);
+  }
+
+  a {
+    color: #8d8c89e7;
+    text-decoration: none;
+  }
+
+  .main-buttons {
+    height: 30%;
+    display: grid;
+    grid-template-columns:32.5% 32.5% 32.5%;
+    grid-template-areas: parent 1 parent 2 parent 3;
+    margin-bottom: 5%;
+  }
+
+
+  

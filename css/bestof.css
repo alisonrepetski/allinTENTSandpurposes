@@ -1,0 +1,58 @@
+@font-face {
+    font-family: Unbounded;
+    src: url(../Fonts/Unbounded-VariableFont_wght.ttf);
+}
+
+body {
+    background-image: url('../images/background.png');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+*{
+    padding: 0; 
+    margin: 0; 
+    box-sizing: border-box;
+}
+
+.hero{
+    height: 100vh;
+    width: 100%;
+    background-image: opacity; 10% linear-gradient(rbga(0,0,0,0.6),rbga(0,0,0,0.6));
+    background-size: cover;
+    background-position: center;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-right:10%;
+    padding-left: 10%;
+}
+
+.LOGO{
+    height: auto;
+    width: 30%;
+    margin-top: 5px;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+    font-family: Unbounded;
+}
+
+nav ul li a{
+    color: #3f3c3ce7;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+nav ul li a:hover{
+    color: #ffc400e7;
+}

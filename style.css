@@ -4,8 +4,7 @@
 }
 
 body {
-    background-image: url('../images/background.png');
-    
+    background-image: url('../Images/background.png');
     background-size: cover;
 }
 
@@ -18,7 +17,6 @@ body {
 .hero{
     height: 100vh;
     width: 100%;
-    background-image: opacity: 10% linear-gradient(rbga(0,0,0,0.6),rbga(0,0,0,0.6));
     background-size: cover;
     background-position: center;
 }

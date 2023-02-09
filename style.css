@@ -58,7 +58,9 @@ h1{
     text-align: center;
     font-family: Unbounded;
     color: #8d8c89e7;
-}
+    display: block;
+    font-size: 2.5vw; 
+  }
 
 .intro2 {
   position: absolute;
@@ -67,11 +69,13 @@ h1{
   display: grid;
   grid-template-columns: 50% 50%;
   float: left;
+  align-self: end; 
 }
 
 .introd {
 border: 1px black;
 height: 100%;
+font-size: 1.5vw;
 }
 
 .tentimg {
@@ -88,8 +92,11 @@ margin-left: 1%;
 text-align: center;
 }
 
+.main-buttons {
+}
+
 button{
-    position: absolute;
+    position: static;
     border: none;
     background: none;
 }
